@@ -10,7 +10,42 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form method="post">
+    <h1>Job Application Form</h1>
+	<lable for="name">Name:</lable>
+	<input name="name" id="name" type="text" required><br><br>
 
+	<lable for="email">Email:</lable>
+	<input name="email" id="email" type="email" required><br><br>
+
+	<legend>Gender</legend>
+	<input type="radio" id="gender" name="gender" value="male" >
+	<label for="gender">male</label>
+	
+	<input  type="radio" id="gender" name="gender" value="female">
+	<lable>female</lable><br><br>
+
+	<lable for="laptop">Laptop Brands:</lable>
+	<select id="laptop" name="laptop">
+		<option value="Apple">Apple</option>
+		<option value="Asus">Asus</option>
+		<option value="Hp">Hp</option>
+	</select><br><br>
+
+	<lable for="age">Age:</lable>
+	<input type="number" id="age" name="age" required><br><br>
+
+	<lable for="dob">Date of Birth:</lable>
+	<input name="dob" id="dob" type="date" required><br><br>
+
+	<lable for="password">Password:</lable>
+	<input name="password" id="password" type="password" required><br><br>
+
+	<lable for="portfolio">Portfolio:</lable>
+	<input name="portfolio" id="portfolio" type="url" ><br><br>
+
+	<button>submit</button>
+	</form>		
 </body>
 
 </html>
